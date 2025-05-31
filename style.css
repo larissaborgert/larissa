@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 20px;
+}
+
+h1 {
+  color: #1b5e20;
+}
+
+.alerta {
+  background-color: #ffebee;
+  padding: 10px;
+  border: 2px solid #c62828;
+  color: #c62828;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desmatamento - Conscientização</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            padding: 20px;
+        }
+        h1 {
+            color: #1b5e20;
+        }
+        .alerta {
+            background-color: #ffebee;
+            padding: 10px;
+            border: 2px solid #c62828;
+            color: #c62828;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌳 Diga NÃO ao Desmatamento!</h1>
+
+    <p>O desmatamento prejudica a fauna, a flora e contribui para as mudanças climáticas.</p>
+
+    <div class="alerta">
+        ⚠️ Cada ano, milhões de hectares de floresta são destruídos no mundo.
+    </div>
+
+    <h2>O que podemos fazer?</h2>
+    <ul>
+        <li>Plantar árvores</li>
+        <li>Reduzir o consumo de papel</li>
+        <li>Divulgar informações</li>
+        <li>Participar de ações ambientais</li>
+    </ul>
+
+    <button onclick="mostrarMensagem()">Clique aqui para saber mais</button>
+
+    <p id="mensagem"></p>
+
+    <script>
+        function mostrarMensagem() {
+            document.getElementById('mensagem').innerHTML = 
+            "🌍 Preservar a natureza é garantir nosso futuro!";
+        }
+    </script>
+
+</body>
+</html>
