@@ -32,6 +32,30 @@
         button:hover {
             background-color: #1b5e20;
         }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .artigos {
+            background-color: #c8e6c9;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .artigos ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .artigos li {
+            margin-bottom: 10px;
+        }
+        .artigos a {
+            color: #1b5e20;
+            text-decoration: none;
+        }
+        .artigos a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -39,6 +63,9 @@
     <h1>🌳 Diga NÃO ao Desmatamento!</h1>
 
     <p>O desmatamento prejudica a fauna, a flora e contribui para as mudanças climáticas.</p>
+
+    <!-- Imagem de desmatamento -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Illegal_logging_in_Bukidnon.jpg/1024px-Illegal_logging_in_Bukidnon.jpg" alt="Imagem de desmatamento">
 
     <div class="alerta">
         ⚠️ Cada ano, milhões de hectares de floresta são destruídos no mundo.
@@ -53,8 +80,16 @@
     </ul>
 
     <button onclick="mostrarMensagem()">Clique aqui para saber mais</button>
-
     <p id="mensagem"></p>
+
+    <div class="artigos">
+        <h2>📚 Artigos sobre Desmatamento</h2>
+        <ul>
+            <li><a href="https://www.worldwildlife.org/threats/deforestation" target="_blank">WWF - Ameaças: Desmatamento</a></li>
+            <li><a href="https://www.nationalgeographic.com/environment/article/deforestation" target="_blank">National Geographic - Deforestation</a></li>
+            <li><a href="https://www.ibge.gov.br/explica/desmatamento.php" target="_blank">IBGE Explica: Desmatamento</a></li>
+        </ul>
+    </div>
 
     <script>
         function mostrarMensagem() {
